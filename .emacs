@@ -1,3 +1,4 @@
+(defvar my-plugins-root-dir "/home/dragons/site-lisp/")
 
 (global-set-key (kbd "C-SPC") nil)
 
@@ -299,7 +300,5 @@ my-color
 
 (add-to-list 'load-path "~/myfile/project/git_project/weibo.emacs")
 (require 'weibo)
-
-(defvar my-plugins-root-dir (concat start-dir "/site-lisp/"))
 
 (load-file (concat my-plugins-root-dir "common/skeleton-conf.el"))
