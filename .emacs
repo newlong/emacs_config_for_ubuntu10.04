@@ -300,3 +300,4 @@ my-color
 (add-to-list 'load-path "~/myfile/project/git_project/weibo.emacs")
 (require 'weibo)
 
+(show-paren-mode t)
