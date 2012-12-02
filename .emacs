@@ -300,4 +300,6 @@ my-color
 (add-to-list 'load-path "~/myfile/project/git_project/weibo.emacs")
 (require 'weibo)
 
-(show-paren-mode t)
+(defvar my-plugins-root-dir (concat start-dir "/site-lisp/"))
+
+(load-file (concat my-plugins-root-dir "common/skeleton-conf.el"))
