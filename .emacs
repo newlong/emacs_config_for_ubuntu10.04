@@ -225,7 +225,7 @@ command may be described by either:
 (add-to-list 'load-path "/home/dragons/site-lisp/slime/")
 (add-to-list 'load-path "/home/dragons/site-lisp/slime/contrib/")
 ;;(setq inferior-lisp-program "/usr/local/commonlisp/clisp/bin/clisp")
-(setq inferior-lisp-program "/usr/local/commonlisp/sbcl/bin/sbcl")
+(setq inferior-lisp-program "/usr/local/commonlisp/sbcl_1.1.1/bin/sbcl")
 ;;(load "/home/dragons/site-lisp/slime/swank-loader.lisp")
 ;;(require 'slime)
 (require 'slime)
